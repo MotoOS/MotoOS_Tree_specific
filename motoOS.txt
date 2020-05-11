@@ -3,3 +3,5 @@
 IS_MOTO := 1080
 IS_MOTO := 1440
 IS_MOTO := 720
+#you phone is burton? (specific boot animation for burton)
+IS_MOTO := burton 
