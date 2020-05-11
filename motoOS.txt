@@ -1,7 +1,15 @@
-#define motorola boot animations
+#you device is motorola ? devices
+
+MOTOROLA_DEVICE := true  (define true for build MotoOS (specific for motorola devices)
+MOTOROLA_DEVICE := false (define false for build DexOS  (universal rom for many devices)
+ 
+
+#define motorola boot animations (only moto devices)
 
 IS_MOTO := 1080
 IS_MOTO := 1440
 IS_MOTO := 720
 #you phone is burton? (specific boot animation for burton)
 IS_MOTO := burton 
+
+# dexOS build  boot animation automatically define
