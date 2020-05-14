@@ -1,4 +1,7 @@
-#you device is motorola ? devices
+# rules for customs roms by team deluxe  
+# seba_3567 2020
+
+#you device is motorola ?
 
 MOTOROLA_DEVICE := true  (define true for build MotoOS (specific for motorola devices)
 MOTOROLA_DEVICE := false (define false for build DexOS  (universal rom for many devices)
@@ -6,10 +9,18 @@ MOTOROLA_DEVICE := false (define false for build DexOS  (universal rom for many 
 
 #define motorola boot animations (only moto devices)
 
-IS_MOTO := 1080
+IS_MOTO := 1080 (default)
 IS_MOTO := 1440
 IS_MOTO := 720
 #you phone is burton? (specific boot animation for burton)
 IS_MOTO := burton 
 
 # dexOS build  boot animation automatically define
+(set false on motorola device)
+
+
+# dolby
+
+MOTO_MAX := true (for build moto MaxAudio (port from burton ) missing define motorola device
+MOTO_DOLBY := true (for build moto Dolby (port from lake ) missing define motorola device
+# for dexOS is default common dolby atmos v6.5 rework theme by irvan Maulana
